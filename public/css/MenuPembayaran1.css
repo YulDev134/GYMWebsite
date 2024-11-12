@@ -1,0 +1,71 @@
+.body {
+  background-color: #ffe600;
+}
+.main {
+  width: 80%;
+  padding: 50px;
+  background-color: #fff;
+}
+.membership-options {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 10px yellow;
+  border-radius: 20px;
+  background-color: #1a1363;
+}
+
+.membership-option {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.membership-option.selected {
+  border: 4px solid #ffe600;
+}
+.payment-methods {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.payment-methods select {
+  padding: 10px;
+  font-size: 16px;
+}
+.details {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.details p {
+  margin: 10px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.main .bulan1 {
+  background-color: #1a1363;
+  color: white;
+}
+.main .bulan3 {
+  background-color: #1a1363;
+  color: white;
+}
+.main .bulan6 {
+  background-color: #1a1363;
+  color: white;
+}
+.code {
+  text-align: center;
+}
+
+.h1 {
+  text-align: center; /* Untuk memposisikan h1 ke tengah */
+  margin-top: 20px; /* Untuk memberi ruang atas */
+}
